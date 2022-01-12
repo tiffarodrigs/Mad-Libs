@@ -38,7 +38,7 @@ _You can find more of our work at:_
 
 ## License
 
-[ISC](https://choosealicense.com/licenses/isc}
+[ISC](https://choosealicense.com/licenses/isc)
 
 _For any problems, please file an issue on Github. Pull Requests welcome._
 

@@ -18,5 +18,16 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+  
+  
+  $("#formTwo").submit(function(event) {
+    // Get the value of the name text the user entered
+    const formLetter = $("input#text-field").val();
+    // Set the user given value in span-h4 tag to display
+    $(".person3").text(formLetter.toUpperCase());
+    $("#letter").show();
+    // Prevent the default of clearing out the result, so that we can read it.
+    event.preventDefault();
+  });
 });
 
